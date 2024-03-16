@@ -6,12 +6,12 @@ Console.WriteLine("Modification 1");
 Console.WriteLine("Modification 2");
 Console.WriteLine("Modification 3");
 
-static double CalculateAverage(int[] numbers) {
+static double CalculateAverage(int[] array) {
         int sum = 0;
-        foreach (int num in numbers){
+        foreach (int num in array){
             sum += num;
         }
-        return (double)sum / numbers.Length;
+        return (double)sum / array.Length;
     }
 
 static int findMax(int[] numbers) {
