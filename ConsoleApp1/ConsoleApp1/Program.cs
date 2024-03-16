@@ -24,3 +24,4 @@ static double CalculateAverage(int[] numbers)
         int[] array = { 1, 2, 3, 4, 5 };
         double average = CalculateAverage(array);
         Console.WriteLine("Average: " + average);
+Console.WriteLine("Fast forward merge");
